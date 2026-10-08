@@ -65,7 +65,7 @@ print(f"Accuracy: {accuracy:.4f}")
 
 
 # Quality gate
-QUALITY_THRESHOLD = 0.90
+QUALITY_THRESHOLD = 1.00
 
 if accuracy < QUALITY_THRESHOLD:
     raise ValueError(
